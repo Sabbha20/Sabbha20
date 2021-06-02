@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Sabbha
 - 👀 I’m interested in learning new stuff, drawing, writing poems, shayari..
 - 🌱 I’m currently learning python, react and javascript. 
-- 💼 I'm currently employed in Cognizant Technology Solution India Pvt. Ltd.(5+ yrs)
 - 💼 I'm having 5+ yrs experience as Fusion Middleware Developer (SOA, OSB, PL-SQL)
 - 💞️ I’m looking to collaborate with someone who can share ideas and program a better future for humanity on our planet.
 - 📫 Mail me : mondalsabbha@gmail.com

@@ -1,7 +1,7 @@
 # 💫 About Me:
 🔭 I’m currently working as Python Developer in TCS.
 <br>👯 I’m looking forward to develop in AI/ML.
-<br>🤝 I’m looking for help with remote jobs 
+<br>🤝 I’m looking for oppurtunities remote jobs 
 <br>🌱 I’m currently learning RUST, (OpenCV, TensorFlow, Pytorch, NLP(Spacy, NLTK)) in python.
 <br>💬 Ask me about Python, Automation, Desktop Tools, Python Libraries, etc.
 

@@ -77,9 +77,9 @@
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true) 
+<!-- ![](https://github-readme-stats.vercel.app/api?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true) 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Sabbha20&theme=ayu-mirage&hide_border=false) 
-[![Sabbha’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sabbha20&theme=github-compact&days=50)](https://github.com/Sabbha20/github-readme-activity-graph)
+[![Sabbha’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sabbha20&theme=github-compact&days=50)](https://github.com/Sabbha20/github-readme-activity-graph) -->
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true&layout=compact) 
 
 ---

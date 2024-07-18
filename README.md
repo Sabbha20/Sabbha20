@@ -1,9 +1,9 @@
 
 # Hi There,
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&weight=800&size=35&duration=3000&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&lines=I+am+Sabbha+Mondal+%F0%9F%91%8B)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&weight=800&size=35&duration=3500&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&lines=I+am+Sabbha+Mondal+%F0%9F%91%8B)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&size=30&duration=3000&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&height=50&lines=Python+Developer.;Automation+Tool+Developer.;Desktop+App+Developer.;Mobile+App+Developer.;AI%2FML+Ops+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&size=30&duration=3900&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&height=50&lines=Python+Developer.;Automation+Tool+Developer.;Desktop+App+Developer.;Mobile+App+Developer.;AI%2FML+Ops+Developer)](https://git.io/typing-svg)
 
 ---
 

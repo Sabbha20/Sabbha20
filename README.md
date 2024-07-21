@@ -46,10 +46,9 @@
 
 ### Tools & Technologies
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=plastic&logo=anaconda&logoColor=white)
-![Julia](https://img.shields.io/badge/-Julia-9558B2?style=plastic&logo=julia&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)<!--![Julia](https://img.shields.io/badge/-Julia-9558B2?style=plastic&logo=julia&logoColor=white)-->
 
 ### Databases
 ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=plastic&logo=mysql&logoColor=white)
@@ -73,7 +72,7 @@
 ![PyODBC](https://img.shields.io/badge/PyODBC-0277BD?style=plastic&logo=microsoft&logoColor=white)
 ![Pytesseract](https://img.shields.io/badge/Pytesseract-FFCA28?style=plastic&logo=google&logoColor=white)
 
----
+<!---
 
 ## 📊 GitHub Stats
 
@@ -88,6 +87,7 @@
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
+--->
 ---
 
 ## 📫 Contact Me

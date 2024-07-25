@@ -72,7 +72,7 @@
 ![PyODBC](https://img.shields.io/badge/PyODBC-0277BD?style=plastic&logo=microsoft&logoColor=white)
 ![Pytesseract](https://img.shields.io/badge/Pytesseract-FFCA28?style=plastic&logo=google&logoColor=white)
 
-<!---
+
 
 ## 📊 GitHub Stats
 
@@ -87,7 +87,7 @@
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
---->
+<!--- --->
 ---
 
 ## 📫 Contact Me

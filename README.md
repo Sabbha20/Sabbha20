@@ -23,7 +23,7 @@
 - 🏆 Independent, reliable, and friendly individual dedicated to achieving goals.
 - 📈 Adaptable and organized, quick to learn the latest web & software technologies.
 - 💡 Special interests in **Python**, **AI/ML**, **Rust**, **Flutter** and **Blockchain**.
-- 🤝 Team player and individual contributor aiming to become an AI/ML developer.
+- 🤝 Team player and individual contributor aiming to become an Blockchain developer.
 
 ---
 

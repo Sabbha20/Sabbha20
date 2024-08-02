@@ -22,7 +22,7 @@
 - 💻 **SOA & OSB Developer** at Cognizant Technology Solutions (2015-2022).
 - 🏆 Independent, reliable, and friendly individual dedicated to achieving goals.
 - 📈 Adaptable and organized, quick to learn the latest web & software technologies.
-- 💡 Special interests in **Python**, **AI/ML**, **Rust**, and **Flutter**.
+- 💡 Special interests in **Python**, **AI/ML**, **Rust**, **Flutter** and **Blockchain**.
 - 🤝 Team player and individual contributor aiming to become an AI/ML developer.
 
 ---
@@ -30,7 +30,7 @@
 ## 🌐 Socials
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/sabbhasachi.mondal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mondal-sabbha)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sabbhamondal/)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/mondal_sabbha)
 
 ---

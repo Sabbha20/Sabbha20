@@ -31,6 +31,15 @@
 
 <div align="center" >
 
+| Languages & Frameworks | Automation Tools | Blockchain & Crypto | Tools & Tech | Databases | AI/ML Libraries |
+|:----------------------:|:-------------------:|:-------------------:|:------------:|:---------:|:---------------:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white) | ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=plastic&logo=selenium&logoColor=white) | ![Solidity](https://img.shields.io/badge/Solidity-363636?style=plastic&logo=solidity&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=plastic&logo=mysql&logoColor=white) | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=plastic&logo=numpy&logoColor=white) |
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=plastic&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=plastic&logo=django&logoColor=white) | ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-217346?style=plastic&logo=microsoft-excel&logoColor=white) | ![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=plastic&logo=bitcoin&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=plastic&logo=mongodb&logoColor=white) | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=plastic&logo=pytorch&logoColor=white) |
+| ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=plastic&logo=flutter&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=plastic&logo=react&logoColor=black) | ![PDF](https://img.shields.io/badge/PDF_Tools-EC1C24?style=plastic&logo=adobe-acrobat-reader&logoColor=white) | ![Smart Contracts](https://img.shields.io/badge/Smart_Contracts-3C3C3D?style=plastic&logo=ethereum&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=plastic&logo=github&logoColor=white) | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=plastic&logo=sqlite&logoColor=white) | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=plastic&logo=python&logoColor=white) |
+| ![Rust](https://img.shields.io/badge/Rust-000000?style=plastic&logo=rust&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=plastic&logo=go&logoColor=white) | ![PyWin32](https://img.shields.io/badge/PyWin32-0078D6?style=plastic&logo=windows&logoColor=white) | ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=plastic&logo=ethereum&logoColor=white) | ![Heroku](https://img.shields.io/badge/Heroku-430098?style=plastic&logo=heroku&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=plastic&logo=postgresql&logoColor=white) | ![NLP](https://img.shields.io/badge/NLP-4285F4?style=plastic&logo=google-cloud&logoColor=white) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=plastic&logo=spacy&logoColor=white) |
+| ![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=plastic&logo=python&logoColor=white) | ![OCR](https://img.shields.io/badge/OCR-4285F4?style=plastic&logo=google-lens&logoColor=white) | ![Crypto](https://img.shields.io/badge/Crypto-00979D?style=plastic&logo=cryptocurrency&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=plastic&logo=jupyter&logoColor=white) | ![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=plastic&logo=oracle&logoColor=white) | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=plastic&logo=scikit-learn&logoColor=white) |
+
+<!--
 | Languages & Frameworks | Automation Tools   | Blockchain & Crypto  | Tools & Tech | Databases | AI/ML Libraries |
 |:----------------------:|:-------------------:|:-------------------:|:------------:|:---------:|:---------------:|
 | Python                 | Selenium-Webdriver  | Solidity             | Git         | MySQL     | Numpy • Pandas  |
@@ -38,7 +47,7 @@
 | Flutter • React        | PdfPlumber • PyPDF2 | Smart Contracts      | GitHub      | SQLite    | Matplotlib      |
 | Rust • GO              | pyWin32             | Ethereum             | Heroku      | Postgres  | NLP • Spacy     |
 | Tkinter                | Pytesseract • OCR   | Crypto               | Jupyter     | Pl-SQL    | scikit-learn    |
-
+-->
 </div>
 
 <div align="center" >
@@ -94,10 +103,10 @@
 ---
 
 ## 📫 Reach Out
-- 📍 Kolkata, West Bengal, India 🇮🇳
-- ✉️ mondalsabbha@gmail.com
-- 🔗 linkedin.com/in/sabbhamondal
-- 🐙 github.com/Sabbha20
+- 📍 **Location:** Kolkata, West Bengal, India 🇮🇳
+- ✉️ **Email:** [mondalsabbha@gmail.com](mailto:mondalsabbha@gmail.com)
+- 🔗 **LinkedIn:** [linkedin.com/in/sabbhamondal](https://www.linkedin.com/in/sabbhamondal/)
+- 🐙 **GitHub:** [github.com/Sabbha20](https://github.com/Sabbha20)
 
 
 ---

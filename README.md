@@ -1,100 +1,119 @@
+<div align="center">
 
-# Hi There,
+# ✍️ Sabbha Mondal
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&weight=800&size=35&duration=3500&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&lines=I+am+Sabbha+Mondal+%F0%9F%91%8B)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bungee+Spice&size=35&duration=3000&pause=1000&&color=53EBF7&center=true&vCenter=true&width=535&lines=Python+Developer;Blockchain+Enthusiast;AI%2FML+Aficionado;Mobile+App+Developer;Automation+Specialist)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Delius+Unicase&size=30&duration=3900&pause=10&color=D4F6F7&vCenter=true&random=false&width=1080&height=50&lines=Python+Developer.;Automation+Tool+Developer.;Desktop+App+Developer.;Mobile+App+Developer.;AI%2FML+Ops+Developer)](https://git.io/typing-svg)
 
----
-
-![Profile Views](https://komarev.com/ghpvc/?username=Sabbha20&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=Sabbha20&style=flat-square&color=665c54)
 ![GitHub followers](https://img.shields.io/github/followers/Sabbha20?label=Follow&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/Sabbha20?label=Stars&style=social)
 
----
-
-
-# 💫 About Me:
-
-- 🌱 Life-long learner with a passion for new technologies.
-- 💼 Nearly 9 years of IT experience.
-- 🐍 **Python Developer** at Tata Consultancy Services (2022-2024).
-- 💻 **SOA & OSB Developer** at Cognizant Technology Solutions (2015-2022).
-- 🏆 Independent, reliable, and friendly individual dedicated to achieving goals.
-- 📈 Adaptable and organized, quick to learn the latest web & software technologies.
-- 💡 Special interests in **Python**, **AI/ML**, **Rust**, **Flutter** and **Blockchain**.
-- 🤝 Team player and individual contributor aiming to become an Blockchain developer.
+</div>
 
 ---
 
-## 🌐 Socials
+## 📌 About Me
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/sabbhasachi.mondal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sabbhamondal/)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/mondal_sabbha)
+> 🚀 Blockchain enthusiast with a passion for emerging tech  
+> 💼 9+ years in IT, currently diving deep into cutting-edge technologies  
+> 🐍 Python Developer at TCS (2022-2024)  
+> 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  
+> 🌱 Perpetual learner, always exploring new horizons  
+> 💡 Fascinated by Python, AI/ML, Blockchain, Rust, and Flutter  
+> 🤝 Collaborative team player aspiring to revolutionize the blockchain space  
 
 ---
 
-## 🛠 Skills
+## 🛠 Skills Palette
 
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=plastic&logo=rust&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=plastic&logo=Flutter&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white)
+<div>
 
-### Tools & Technologies
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=plastic&logo=anaconda&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)<!--![Julia](https://img.shields.io/badge/-Julia-9558B2?style=plastic&logo=julia&logoColor=white)-->
+<div align="center" >
 
-### Databases
-![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=plastic&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white)
-![PL/SQL](https://img.shields.io/badge/PL--SQL-003B57?style=plastic&logo=oracle&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
+| Languages & Frameworks | Automation Tools   | Blockchain & Crypto  | Tools & Tech | Databases | AI/ML Libraries |
+|:----------------------:|:-------------------:|:-------------------:|:------------:|:---------:|:---------------:|
+| Python                 | Selenium-Webdriver  | Solidity             | Git         | MySQL     | Numpy • Pandas  |
+| Flask • Django         | OpenPyXL            | Bitcoin              | Docker      | MongoDB   | OpenCV • PyTorch|
+| Flutter • React        | PdfPlumber • PyPDF2 | Smart Contracts      | GitHub      | SQLite    | Matplotlib      |
+| Rust • GO              | pyWin32             | Ethereum             | Heroku      | Postgres  | NLP • Spacy     |
+| Tkinter                | Pytesseract • OCR   | Crypto               | Jupyter     | Pl-SQL    | scikit-learn    |
 
-### Libraries & Frameworks
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white)
-![Spacy](https://img.shields.io/badge/Spacy-09A3D5?style=plastic&logo=spacy&logoColor=white) 
-![NLTK](https://img.shields.io/badge/NLTK-0276C9?style=plastic&logo=nltk&logoColor=white) 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=Keras&logoColor=white)
+</div>
 
-### Additional Tools
-![Pywin32](https://img.shields.io/badge/Pywin32-4A90E2?style=plastic&logo=windows&logoColor=white)
-![PyODBC](https://img.shields.io/badge/PyODBC-0277BD?style=plastic&logo=microsoft&logoColor=white)
-![Pytesseract](https://img.shields.io/badge/Pytesseract-FFCA28?style=plastic&logo=google&logoColor=white)
+<div align="center" >
+  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&layout=compact&langs_count=8&include_all_commits=true&count_private=true&hide=jupyter%20notebook)
+  
+</div>
+  
+</div>
 
-
+---
 
 ## 📊 GitHub Stats
+
+<div align="center">
 
 ![](https://github-readme-stats.vercel.app/api?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true) 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Sabbha20&theme=ayu-mirage&hide_border=false) 
 [![Sabbha’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sabbha20&theme=github-compact&days=50)](https://github.com/Sabbha20/github-readme-activity-graph) 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true&layout=compact) 
+ 
+
+</div>
 
 ---
 
-### ✍️ Random Dev Quote
+## 🌐 Connect with me
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<div align="center">
 
-<!--- --->
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/sabbhamondal)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/mondal_sabbha)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Sabbha20)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:mondalsabbha@gmail.com)
+
+</div>
+<p align="center">
+<a href="https://codepen.io/sabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="sabbha" height="20" width="30" /></a>
+<a href="https://dev.to/mondal_sabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="mondal_sabbha" height="20" width="30" /></a>
+<a href="https://twitter.com/mondal_sabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mondal_sabbha" height="20" width="30" /></a>
+<a href="https://linkedin.com/in/sabbhamondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sabbhamondal"height="20" width="30" /></a>
+<a href="https://stackoverflow.com/users/14581828" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="14581828" height="20" width="30"/></a>
+<a href="https://codesandbox.com/sabbha20" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="sabbha20" height="20" width="30"/></a>
+<a href="https://kaggle.com/sabbhamondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="sabbhamondal" height="20" width="30" /></a>
+<a href="https://fb.com/sabbhasachi.mondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sabbhasachi.mondal" height="20" width="30" /></a>
+<a href="https://instagram.com/zero_patterns" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zero_patterns" height="20" width="30" /></a>
+<a href="https://www.behance.net/sabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="sabbha" height="20" width="30" /></a>
+<a href="https://medium.com/@mondalsabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@mondalsabbha" height="20" width="30" /></a>
+<a href="https://www.hackerrank.com/mondalsabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mondalsabbha" height="20" width="30" /></a>
+<a href="https://www.leetcode.com/mondalsabbha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mondalsabbha" height="20" width="30" /></a>
+<a href="https://www.hackerearth.com/@sabbha.power1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@sabbha.power1" height="20" width="30" /></a>
+</p>
+
 ---
 
-## 📫 Contact Me
+## 📫 Reach Out
+- 📍 Kolkata, West Bengal, India 🇮🇳
+- ✉️ mondalsabbha@gmail.com
+- 🔗 linkedin.com/in/sabbhamondal
+- 🐙 github.com/Sabbha20
 
-- **Location:** Kolkata, West Bengal, India 🇮🇳
-- **Email:** [mondalsabbha@gmail.com](mailto:mondalsabbha@gmail.com)
-- **LinkedIn:** [linkedin.com/in/mondal-sabbha](https://www.linkedin.com/in/mondal-sabbha/)
-- **GitHub:** [github.com/Sabbha20](https://github.com/Sabbha20)
 
 ---
+
+
+### ✨ Random Dev Quote
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox_light)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Macondo&size=30&duration=3000&pause=1000&color=53EBF7&center=true&vCenter=true&width=675&lines=Thanks+for+visiting+my+profile!;Let's+connect+and+create+something+amazing!)](https://git.io/typing-svg)
+
+</div>

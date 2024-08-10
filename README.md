@@ -106,7 +106,7 @@
 ### ✨ Random Dev Quote
 <div align="center">
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox_light)](https://github.com/piyushsuthar/github-readme-quotes)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=ayu-mirage&hide_border=false)](https://github.com/piyushsuthar/github-readme-quotes)
 
 </div>
 

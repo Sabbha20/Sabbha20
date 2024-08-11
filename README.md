@@ -53,7 +53,7 @@
 
 <div align="center" >
   
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&layout=donut&langs_count=8&include_all_commits=true&count_private=true&hide=jupyter%20notebook,typescript,swift)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&layout=donut&langs_count=8&include_all_commits=true&count_private=true&hide=typescript,swift)
   
 </div>
   

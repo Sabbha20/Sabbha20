@@ -15,7 +15,7 @@
 
 ## 📌 About Me
 
-> 🚀 Blockchain enthusiast with a passion for emerging tech  
+> 🚀 AI/ML enthusiast with a passion for emerging tech  
 > 💼 9+ years in IT, currently diving deep into cutting-edge technologies  
 > 🐍 Python Developer at TCS (2022-2024)  
 > 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  

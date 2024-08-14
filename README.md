@@ -2,7 +2,7 @@
 
 # ✍️ Sabbha Mondal
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bungee+Spice&size=35&duration=3000&pause=1000&&color=53EBF7&center=true&vCenter=true&width=535&lines=Python+Developer;Blockchain+Enthusiast;AI%2FML+Aficionado;Mobile+App+Developer;Automation+Specialist)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bungee+Spice&size=35&duration=3000&pause=1000&&color=53EBF7&center=true&vCenter=true&width=535&lines=Python+Developer;AI%2FML+Enthusiast;WebApp+Aficionado;Mobile+App+Fanatic;Automation+Specialist;Desktop+App+Developer)](https://git.io/typing-svg)
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Sabbha20&style=flat-square&color=665c54)

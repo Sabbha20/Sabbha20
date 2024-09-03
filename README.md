@@ -21,7 +21,7 @@
 > 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  
 > 🌱 Perpetual learner, always exploring new horizons  
 > 💡 Fascinated by Python, AI/ML, Blockchain, Rust, and Flutter  
-> 🤝 Collaborative team player aspiring to revolutionize the blockchain space  
+> 🤝 Collaborative team player aspiring to revolutionize the tech space  
 
 ---
 

@@ -20,7 +20,7 @@
 > 🐍 Python Developer at TCS (2022-2024)  
 > 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  
 > 🌱 Perpetual learner, always exploring new horizons  
-> 💡 Fascinated by Python, AI/ML, Blockchain, Rust, and Flutter  
+> 💡 Fascinated by Python, AI/ML, Rust, and Flutter  
 > 🤝 Collaborative team player aspiring to revolutionize the tech space  
 
 ---

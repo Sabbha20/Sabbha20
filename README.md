@@ -6,7 +6,7 @@
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Sabbha20&style=flat-square&color=665c54)
-![GitHub followers](https://img.shields.io/github/followers/Sabbha20?label=Follow&style=social)
+![GitHub followers](https://img.shields.io/github/followers/Sabbha20?label=Followers&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/Sabbha20?label=Stars&style=social)
 
 </div>

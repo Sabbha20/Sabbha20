@@ -16,11 +16,12 @@
 ## 📌 About Me
 
 > 🚀 AI/ML enthusiast with a passion for emerging tech  
-> 💼 9+ years in IT, currently diving deep into cutting-edge technologies  
+> 💼 9+ years in IT, currently diving deep into cutting-edge technologies
+> 👨‍💻 Senior Software Engineer at Servion Global Solutions (2024 - Present)
 > 🐍 Python Developer at TCS (2022-2024)  
 > 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  
 > 🌱 Perpetual learner, always exploring new horizons  
-> 💡 Fascinated by Python, AI/ML, Rust, and Flutter  
+> 💡 Fascinated by Python, AI/ML, Rust, Flutter, and the evolving landscape of LLMs and RAG
 > 🤝 Collaborative team player aspiring to revolutionize the tech space  
 
 ---

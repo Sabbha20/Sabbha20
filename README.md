@@ -17,7 +17,7 @@
 
 > 🚀 AI/ML enthusiast with a passion for emerging tech  
 > 💼 9+ years in IT, currently diving deep into cutting-edge technologies   
-> 👨‍💻 Senior Software Engineer at Servion Global Solutions (2024 - Present)   
+> 👨‍💻 Senior Software Engineer at Servion Global Solutions (2024 - 2026)   
 > 🐍 Python Developer at TCS (2022-2024)  
 > 💻 Former SOA & OSB Developer at Cognizant (2015-2022)  
 > 🌱 Perpetual learner, always exploring new horizons  

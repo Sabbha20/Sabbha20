@@ -124,35 +124,45 @@ section.block{padding:110px 0}
 .card-full{grid-column:1/-1}
 .card-full img{width:100%;border-radius:14px}
 
-/* ---------- TIMELINE ---------- */
-.tl-wrap{position:relative}
-.tl-rail{position:absolute;top:38px;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,transparent,var(--line) 8%,var(--line) 92%,transparent);z-index:0}
-.tl-track{display:flex;gap:22px;overflow-x:auto;padding:0 4px 22px;scroll-snap-type:x mandatory;
-  cursor:grab;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
-.tl-track.drag{cursor:grabbing;scroll-snap-type:none}
-.tl-track::-webkit-scrollbar{height:6px}
-.tl-track::-webkit-scrollbar-thumb{background:var(--line);border-radius:6px}
-.tl-card{position:relative;z-index:1;flex:0 0 320px;scroll-snap-align:center;padding-top:64px}
-.tl-node{position:absolute;top:31px;left:28px;width:16px;height:16px;border-radius:50%;
-  background:var(--bg);border:2px solid var(--cyan);box-shadow:0 0 0 4px var(--bg),0 0 14px var(--cyan)}
-.tl-card.now .tl-node{border-color:var(--amber);box-shadow:0 0 0 4px var(--bg),0 0 16px var(--amber);
+/* ---------- CAREER GRAPH ---------- */
+.cg-wrap{position:relative}
+.cg-stage{position:relative;width:100%;height:360px;margin-top:4px}
+.cg-edges{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.cg-edge{fill:none;stroke:var(--line);stroke-width:2;vector-effect:non-scaling-stroke;transition:stroke .3s}
+.cg-edge.hot{stroke:var(--cyan);stroke-width:2.5;vector-effect:non-scaling-stroke;
+  stroke-dasharray:7 7;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-14}}
+.cg-node{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;
+  align-items:center;gap:9px;cursor:pointer;background:none;border:none;padding:6px;transition:transform .28s}
+.cg-node .ring{width:20px;height:20px;border-radius:50%;background:var(--bg);
+  border:2px solid var(--cyan);box-shadow:0 0 0 4px var(--bg),0 0 14px var(--cyan);transition:.25s}
+.cg-node.now .ring{border-color:var(--amber);box-shadow:0 0 0 4px var(--bg),0 0 16px var(--amber);
   animation:pulse 1.8s ease-in-out infinite}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 4px var(--bg),0 0 8px var(--amber)}
-  50%{box-shadow:0 0 0 4px var(--bg),0 0 20px var(--amber)}}
-.tl-period{font-family:var(--mono);font-size:12px;color:var(--cyan);letter-spacing:.05em;margin-bottom:12px}
-.tl-card.now .tl-period{color:var(--amber)}
-.tl-box{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;
-  height:100%;transition:.25s}
-.tl-box:hover{border-color:var(--cyan);transform:translateY(-4px);box-shadow:0 16px 34px -18px var(--cyan)}
-.tl-co{font-size:19px;font-weight:600;letter-spacing:-.01em}
-.tl-role{font-family:var(--mono);font-size:12px;color:var(--muted);margin:4px 0 14px;text-transform:uppercase;letter-spacing:.08em}
-.tl-blurb{font-size:14px;color:var(--text);opacity:.9;line-height:1.55;margin-bottom:16px}
-.tl-tech{display:flex;flex-wrap:wrap;gap:7px}
-.tl-tech span{font-family:var(--mono);font-size:11px;padding:5px 10px;border-radius:8px;
+  50%{box-shadow:0 0 0 4px var(--bg),0 0 22px var(--amber)}}
+.cg-node .n-co{font-size:15px;font-weight:600;color:var(--text);white-space:nowrap;transition:.25s}
+.cg-node .n-per{font-family:var(--mono);font-size:10.5px;color:var(--muted);white-space:nowrap}
+.cg-node:hover{transform:translate(-50%,-50%) scale(1.06)}
+.cg-node.active{transform:translate(-50%,-50%) scale(1.14)}
+.cg-node.active .ring{width:26px;height:26px;background:var(--cyan)}
+.cg-node.now.active .ring{background:var(--amber)}
+.cg-node.active .n-co{color:var(--cyan)}
+.cg-node.now.active .n-co{color:var(--amber)}
+.cg-panel{margin-top:20px;background:var(--surface);border:1px solid var(--line);border-radius:18px;
+  padding:26px 28px;transition:border-color .3s}
+.cg-panel.now{border-color:rgba(245,166,35,.35)}
+.cg-panel .p-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:5px}
+.cg-panel .p-co{font-size:22px;font-weight:600;letter-spacing:-.01em}
+.cg-panel .p-per{font-family:var(--mono);font-size:12px;color:var(--cyan)}
+.cg-panel.now .p-per{color:var(--amber)}
+.cg-panel .p-role{font-family:var(--mono);font-size:12px;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:16px}
+.cg-panel .p-blurb{font-size:15px;line-height:1.6;opacity:.92;margin-bottom:18px}
+.cg-panel .p-tech{display:flex;flex-wrap:wrap;gap:8px}
+.cg-panel .p-tech span{font-family:var(--mono);font-size:11.5px;padding:6px 11px;border-radius:8px;
   background:var(--bg2);border:1px solid var(--line);color:var(--muted)}
-.tl-hint{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.14em;
-  margin-top:6px;text-align:right}
+.cg-hint{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.16em;
+  text-transform:uppercase;margin-top:14px;text-align:center}
 
 /* ---------- REVEAL ---------- */
 .reveal{opacity:0;transform:translateY(34px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -234,11 +244,13 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
 <section class="block" id="career">
   <div class="wrap">
     <div class="sec-head reveal"><span class="sec-num">03</span><span class="sec-title">Career</span><span class="sec-line"></span></div>
-    <div class="tl-wrap reveal">
-      <div class="tl-rail"></div>
-      <div class="tl-track" id="tlTrack"></div>
+    <div class="cg-wrap reveal">
+      <div class="cg-stage" id="cgStage">
+        <svg class="cg-edges" id="cgEdges" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      </div>
+      <div class="cg-panel" id="cgPanel"></div>
+      <div class="cg-hint">tap a node to explore the path &middot; amber = present</div>
     </div>
-    <div class="tl-hint">&larr; DRAG / SCROLL &rarr;</div>
   </div>
 </section>
 
@@ -354,7 +366,7 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
 /* ---------------- SCRAMBLE ROLES ---------------- */
 (function(){
   const el=document.getElementById('typed');
-  const roles=['writing Python','building GenAI systems','engineering RAG pipelines','orchestrating AI agents','automating workflows', 'perceiving Computer Vision', 'exploring IoT', 'articulating NLP' ];
+  const roles=['writing Python','building GenAI systems','engineering RAG pipelines','orchestrating AI agents','automating workflows','perceiving Computer Vision','exploring IoT','articulating NLP'];
   const CH='!<>-_\\/[]{}—=+*^?#01';
   if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=roles[0];return;}
   let ri=0;
@@ -462,7 +474,7 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
   });
 })();
 
-/* ---------------- TIMELINE ---------------- */
+/* ---------------- CAREER KNOWLEDGE GRAPH ---------------- */
 (function(){
   const data=[
     {co:'Cognizant',role:'Associate · Oracle SOA Developer',period:'Apr 2015 – Jun 2022',
@@ -475,41 +487,69 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
      blurb:'Designed production GenAI/RAG backends on AWS Bedrock (~30% better retrieval); event-driven microservices with Lambda, Step Functions & CDK cut manual workflows by 98%; metadata-aware retrieval to reduce hallucinations.',
      tech:['AWS Bedrock','RAG','Lambda','Step Functions','CDK','DynamoDB']},
     {co:'Cognizant',role:'Team Lead · Agentic AI Automation',period:'May 2026 – Present',now:true,
-     blurb:'Building agentic AI automation — LangGraph multi-agent workflows and MCP tooling, create frontend UI with React/TypeScript for production automation webapp.',
+     blurb:'Building agentic AI automation — LangGraph multi-agent workflows and MCP tooling, creating frontend UI with React/TypeScript for a production automation webapp.',
      tech:['Agentic AI','LangGraph','Langchain','MCP','React','TypeScript']}
   ];
-  const track=document.getElementById('tlTrack');
-  data.forEach(d=>{
-    const c=document.createElement('div');c.className='tl-card'+(d.now?' now':'');
-    c.innerHTML='<div class="tl-node"></div><div class="tl-period">'+d.period+'</div>'+
-      '<div class="tl-box"><div class="tl-co">'+d.co+'</div><div class="tl-role">'+d.role+'</div>'+
-      '<div class="tl-blurb">'+d.blurb+'</div><div class="tl-tech">'+
-      d.tech.map(t=>'<span>'+t+'</span>').join('')+'</div></div>';
-    track.appendChild(c);
+  const stage=document.getElementById('cgStage'),
+        svg=document.getElementById('cgEdges'),
+        panel=document.getElementById('cgPanel');
+  const SVGNS='http://www.w3.org/2000/svg';
+  let active=data.findIndex(d=>d.now); if(active<0)active=data.length-1;
+
+  // build node buttons
+  const nodes=data.map((d,i)=>{
+    const b=document.createElement('button');
+    b.className='cg-node'+(d.now?' now':'');
+    b.type='button';b.setAttribute('aria-label',d.co+' — '+d.period);
+    b.innerHTML='<span class="ring"></span><span class="n-co">'+d.co+'</span><span class="n-per">'+d.period+'</span>';
+    b.addEventListener('mouseenter',()=>select(i));
+    b.addEventListener('click',()=>select(i));
+    b.addEventListener('focus',()=>select(i));
+    stage.appendChild(b);return b;
   });
-  // drag to scroll
-  let down=false,sx,sl;
-  track.addEventListener('mousedown',e=>{down=true;track.classList.add('drag');sx=e.pageX;sl=track.scrollLeft;});
-  window.addEventListener('mouseup',()=>{down=false;track.classList.remove('drag');});
-  track.addEventListener('mousemove',e=>{if(!down)return;e.preventDefault();track.scrollLeft=sl-(e.pageX-sx)*1.4;});
-  // gentle auto-scroll, pause on hover/interaction
-  const reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  let paused=false,dir=1;
-  ['mouseenter','touchstart','mousedown','wheel'].forEach(ev=>track.addEventListener(ev,()=>paused=true,{passive:true}));
-  track.addEventListener('mouseleave',()=>paused=false);
-  if(!reduce){
-    let started=false;
-    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&!started){started=true;tick();}}),{threshold:.3});
-    io.observe(track);
-    function tick(){
-      if(!paused){
-        track.scrollLeft+=0.45*dir;
-        const max=track.scrollWidth-track.clientWidth;
-        if(track.scrollLeft>=max-1)dir=-1;else if(track.scrollLeft<=0)dir=1;
-      }
-      requestAnimationFrame(tick);
+
+  // layouts in % coordinates
+  const zig=[[13,66],[38,28],[63,70],[87,30]];
+  function layout(){
+    const narrow=stage.clientWidth<620;
+    stage.style.height=narrow?(data.length*118)+'px':'360px';
+    const pos=data.map((_,i)=>{
+      if(narrow){const y=(i+0.5)/data.length*100;return [i%2?72:28,y];}
+      return zig[i]||[ (i+0.5)/data.length*100, 50 ];
+    });
+    nodes.forEach((n,i)=>{n.style.left=pos[i][0]+'%';n.style.top=pos[i][1]+'%';});
+    // edges
+    svg.innerHTML='';
+    for(let i=0;i<pos.length-1;i++){
+      const [x0,y0]=pos[i],[x1,y1]=pos[i+1];
+      const dx=(x1-x0)*0.45;
+      const p=document.createElementNS(SVGNS,'path');
+      p.setAttribute('d','M '+x0+' '+y0+' C '+(x0+dx)+' '+y0+' '+(x1-dx)+' '+y1+' '+x1+' '+y1);
+      p.setAttribute('class','cg-edge');p.dataset.a=i;p.dataset.b=i+1;
+      svg.appendChild(p);
     }
+    paintEdges();
   }
+  function paintEdges(){
+    svg.querySelectorAll('.cg-edge').forEach(p=>{
+      const a=+p.dataset.a,b=+p.dataset.b;
+      p.classList.toggle('hot',a===active||b===active);
+    });
+  }
+  function select(i){
+    if(i===active&&panel.dataset.i==i)return;
+    active=i;
+    nodes.forEach((n,k)=>n.classList.toggle('active',k===active));
+    paintEdges();
+    const d=data[i];
+    panel.dataset.i=i;
+    panel.className='cg-panel'+(d.now?' now':'');
+    panel.innerHTML='<div class="p-head"><span class="p-co">'+d.co+'</span><span class="p-per">'+d.period+'</span></div>'+
+      '<div class="p-role">'+d.role+'</div><div class="p-blurb">'+d.blurb+'</div>'+
+      '<div class="p-tech">'+d.tech.map(t=>'<span>'+t+'</span>').join('')+'</div>';
+  }
+  layout();select(active);
+  let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(layout,150);});
 })();
 
 /* ---------------- SCROLL REVEAL ---------------- */

@@ -1,364 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sabbha Mondal — Agentic AI Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#080B14;
-  --bg2:#0D1220;
-  --surface:#121a2e;
-  --line:#1e2942;
-  --cyan:#53EBF7;
-  --violet:#8B7BFF;
-  --amber:#F5A623;
-  --text:#E7ECF5;
-  --muted:#7C8AA5;
-  --display:'Space Grotesk',sans-serif;
-  --mono:'JetBrains Mono',monospace;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:var(--display);
-  overflow-x:hidden;
-  line-height:1.5;
-}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+<div align="center">
 
-/* ---------- HERO ---------- */
-#hero{position:relative;height:100vh;min-height:640px;display:flex;align-items:center;overflow:hidden}
-#graph{position:absolute;inset:0;width:100%;height:100%;z-index:0}
-#hero::after{content:"";position:absolute;inset:0;z-index:1;
-  background:radial-gradient(ellipse 80% 60% at 30% 40%,transparent 0%,var(--bg) 90%);
-  pointer-events:none}
-.hero-inner{position:relative;z-index:2;pointer-events:none}
-.hero-inner *{pointer-events:auto}
-.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.32em;text-transform:uppercase;
-  color:var(--cyan);margin-bottom:22px;opacity:0;animation:fadeUp .8s .1s forwards}
-.eyebrow span{color:var(--muted)}
-h1{font-size:clamp(44px,8vw,92px);font-weight:700;letter-spacing:-.03em;line-height:.98;
-  opacity:0;animation:fadeUp .8s .25s forwards}
-h1 .grad{background:linear-gradient(100deg,var(--cyan),var(--violet));-webkit-background-clip:text;
-  background-clip:text;-webkit-text-fill-color:transparent}
-.role{font-family:var(--mono);font-size:clamp(16px,2.6vw,24px);color:var(--text);margin-top:20px;
-  height:1.4em;opacity:0;animation:fadeUp .8s .45s forwards}
-.role .pre{color:var(--muted)}
-.role .cursor{color:var(--cyan);animation:blink 1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
-.hero-cta{margin-top:38px;display:flex;gap:14px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s .65s forwards}
-.btn{font-family:var(--mono);font-size:14px;padding:13px 22px;border-radius:10px;
-  border:1px solid var(--line);transition:.25s;display:inline-flex;align-items:center;gap:9px}
-.btn.primary{background:linear-gradient(100deg,var(--cyan),var(--violet));color:#06101a;
-  border:none;font-weight:700}
-.btn.primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px -8px var(--cyan)}
-.btn.ghost:hover{border-color:var(--cyan);color:var(--cyan);transform:translateY(-2px)}
-.scroll-hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;
-  font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--muted);
-  display:flex;flex-direction:column;align-items:center;gap:8px;opacity:0;animation:fadeUp 1s 1s forwards}
-.scroll-hint .bar{width:1px;height:34px;background:linear-gradient(var(--cyan),transparent);
-  animation:drop 1.8s ease-in-out infinite}
-@keyframes drop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}
-  50.1%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
-@keyframes fadeUp{to{opacity:1;transform:none}}
-.eyebrow,h1,.role,.hero-cta{transform:translateY(18px)}
+# ✍️ Sabbha Mondal
 
-/* ---------- LIVE STAT BAR ---------- */
-#statbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2)}
-.stat-grid{display:grid;grid-template-columns:repeat(4,1fr)}
-.stat{padding:34px 20px;text-align:center;border-left:1px solid var(--line)}
-.stat:first-child{border-left:none}
-.stat .num{font-size:clamp(30px,4.5vw,46px);font-weight:700;letter-spacing:-.02em;
-  background:linear-gradient(120deg,var(--cyan),var(--violet));-webkit-background-clip:text;
-  background-clip:text;-webkit-text-fill-color:transparent;font-variant-numeric:tabular-nums}
-.stat .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--muted);margin-top:8px}
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bungee+Spice&size=35&duration=3000&pause=1000&color=53EBF7&center=true&vCenter=true&width=535&lines=Python+Developer;GenAI+Builder;RAG+Specialist;Agentic+AI+Engineer;Workflow+Automation+Specialist;Computer+Vision+Fanatic;Mobile+App+Explorer;IoT+Enthusiast)](https://git.io/typing-svg)
 
-/* ---------- SECTIONS ---------- */
-section.block{padding:110px 0}
-.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:52px}
-.sec-num{font-family:var(--mono);font-size:14px;color:var(--cyan)}
-.sec-title{font-size:clamp(28px,4vw,40px);font-weight:600;letter-spacing:-.02em}
-.sec-line{flex:1;height:1px;background:var(--line)}
+[![View Live Site](https://img.shields.io/badge/🌐_View_Live_Portfolio-53EBF7?style=for-the-badge&logoColor=black&labelColor=0D1220)](https://sabbha20.github.io/Sabbha20/)
 
-.about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:48px;align-items:start}
-.about-lead{font-size:clamp(20px,2.6vw,27px);font-weight:400;line-height:1.5;color:var(--text)}
-.about-lead b{color:var(--cyan);font-weight:600}
-.about-side{font-family:var(--mono);font-size:13.5px;color:var(--muted);line-height:2;
-  border-left:2px solid var(--line);padding-left:22px}
-.about-side span{color:var(--text)}
+![Profile Views](https://komarev.com/ghpvc/?username=Sabbha20&style=flat-square&color=53EBF7)
+![GitHub followers](https://img.shields.io/github/followers/Sabbha20?label=Followers&style=social)
+![GitHub stars](https://img.shields.io/github/stars/Sabbha20?label=Stars&style=social)
 
-/* ---------- STACK ---------- */
-.stack-group{margin-bottom:36px}
-.stack-label{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--muted);margin-bottom:16px}
-.chips{display:flex;flex-wrap:wrap;gap:12px}
-.chip{font-family:var(--mono);font-size:14px;padding:11px 18px;border-radius:12px;
-  background:var(--surface);border:1px solid var(--line);transition:.22s;cursor:default;
-  display:flex;align-items:center;gap:9px;position:relative;overflow:hidden}
-.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--dot,var(--cyan));
-  box-shadow:0 0 10px var(--dot,var(--cyan))}
-.chip:hover{transform:translateY(-4px);border-color:var(--dot,var(--cyan));
-  box-shadow:0 12px 26px -12px var(--dot,var(--cyan))}
-
-/* ---------- GITHUB CARDS ---------- */
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.cards img{width:100%;border-radius:14px;border:1px solid var(--line);background:var(--surface)}
-.card-full{grid-column:1/-1}
-.card-full img{width:100%;border-radius:14px}
-
-/* ---------- REVEAL ---------- */
-.reveal{opacity:0;transform:translateY(34px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
-.reveal.in{opacity:1;transform:none}
-
-/* ---------- FOOTER ---------- */
-footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;background:var(--bg2)}
-.foot-links{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
-.foot-links a{font-family:var(--mono);font-size:14px;padding:12px 20px;border:1px solid var(--line);
-  border-radius:10px;transition:.22s}
-.foot-links a:hover{border-color:var(--cyan);color:var(--cyan);transform:translateY(-3px)}
-.foot-meta{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
-.foot-meta .dot{color:var(--cyan)}
-
-@media(max-width:820px){
-  .about-grid{grid-template-columns:1fr;gap:30px}
-  .stat-grid{grid-template-columns:1fr 1fr}
-  .stat:nth-child(3){border-left:none}
-  .stat{border-top:1px solid var(--line)}
-  .stat:nth-child(-n+2){border-top:none}
-  .cards{grid-template-columns:1fr}
-  section.block{padding:80px 0}
-}
-@media(prefers-reduced-motion:reduce){
-  *{animation-duration:.001s!important;transition-duration:.001s!important}
-  .reveal{opacity:1;transform:none}
-}
-</style>
-</head>
-<body>
-
-<section id="hero">
-  <canvas id="graph"></canvas>
-  <div class="wrap hero-inner">
-    <div class="eyebrow">Agentic AI Engineer <span>// Kolkata, India</span></div>
-    <h1>Sabbha<br><span class="grad">Mondal</span></h1>
-    <div class="role"><span class="pre">$ building &rarr; </span><span id="typed"></span><span class="cursor">_</span></div>
-    <div class="hero-cta">
-      <a class="btn primary" href="#stack">Explore the stack</a>
-      <a class="btn ghost" href="https://github.com/Sabbha20" target="_blank" rel="noopener">GitHub &#8599;</a>
-    </div>
-  </div>
-  <div class="scroll-hint"><span>SCROLL</span><span class="bar"></span></div>
-</section>
-
-<div id="statbar">
-  <div class="wrap">
-    <div class="stat-grid">
-      <div class="stat"><div class="num" id="s-exp">0</div><div class="lbl">Years in tech</div></div>
-      <div class="stat"><div class="num" id="s-repos">0</div><div class="lbl">Public repos</div></div>
-      <div class="stat"><div class="num" id="s-stars">0</div><div class="lbl">Total stars</div></div>
-      <div class="stat"><div class="num" id="s-followers">0</div><div class="lbl">Followers</div></div>
-    </div>
-  </div>
 </div>
 
-<section class="block" id="about">
-  <div class="wrap">
-    <div class="sec-head reveal"><span class="sec-num">01</span><span class="sec-title">About</span><span class="sec-line"></span></div>
-    <div class="about-grid">
-      <p class="about-lead reveal">A Python developer with <b>10+ years</b> across enterprise IT, now designing <b>agentic AI systems</b> — RAG pipelines, LangGraph agents, and MCP tooling that turn messy real-world workflows into things that run themselves.</p>
-      <div class="about-side reveal">
-        <div>focus &rarr; <span>GenAI &middot; RAG &middot; Agents</span></div>
-        <div>also &rarr; <span>Computer Vision</span></div>
-        <div>tinkering &rarr; <span>ESP32 &middot; IoT</span></div>
-        <div>mindset &rarr; <span>perpetual learner</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+---
 
-<section class="block" id="stack">
-  <div class="wrap">
-    <div class="sec-head reveal"><span class="sec-num">02</span><span class="sec-title">Tech Stack</span><span class="sec-line"></span></div>
-    <div id="stackHost"></div>
-  </div>
-</section>
+## 📌 About Me
 
-<section class="block" id="stats">
-  <div class="wrap">
-    <div class="sec-head reveal"><span class="sec-num">03</span><span class="sec-title">GitHub Activity</span><span class="sec-line"></span></div>
-    <div class="cards reveal">
-      <img loading="lazy" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Sabbha20&theme=ayu-mirage&hide_border=true&include_all_commits=true&count_private=true&bg_color=121a2e">
-      <img loading="lazy" alt="Streak" src="https://streak-stats.demolab.com?user=Sabbha20&theme=ayu-mirage&hide_border=true&background=121a2e">
-      <div class="card-full"><img loading="lazy" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Sabbha20&theme=react-dark&hide_border=true&area=true&bg_color=121a2e"></div>
-    </div>
-  </div>
-</section>
+> 🚀 AI/ML enthusiast with a passion for emerging tech
+> 💼 10+ years in IT, currently building agentic AI systems
+> 🐍 Python developer specializing in GenAI, RAG & agentic workflows
+> 🌱 Perpetual learner, always exploring new horizons
+> 💡 Fascinated by LLMs, RAG, Computer Vision & IoT
 
-<footer>
-  <div class="wrap">
-    <div class="foot-links">
-      <a href="https://linkedin.com/in/sabbhamondal" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/Sabbha20" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://twitter.com/mondal_sabbha" target="_blank" rel="noopener">Twitter</a>
-      <a href="https://medium.com/@mondalsabbha" target="_blank" rel="noopener">Medium</a>
-      <a href="mailto:mondalsabbha@gmail.com">Email</a>
-    </div>
-    <div class="foot-meta">Designed &amp; built by Sabbha Mondal <span class="dot">&middot;</span> Kolkata <span class="dot">&middot;</span> <span id="year"></span></div>
-  </div>
-</footer>
+---
 
-<script>
-/* ---------------- AGENT GRAPH HERO ---------------- */
-(function(){
-  const cv=document.getElementById('graph'),ctx=cv.getContext('2d');
-  const reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  let W,H,DPR,nodes=[],tokens=[],mouse={x:-999,y:-999};
-  const CY='83,235,247',VI='139,123,255';
-  function size(){DPR=Math.min(window.devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;
-    cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);}
-  function build(){
-    nodes=[];const count=Math.min(72,Math.floor(W*H/16000));
-    const labels=['RAG','LangGraph','MCP','Bedrock','Vision','Agent','Python','IoT'];
-    for(let i=0;i<count;i++){
-      const big=i<labels.length;
-      nodes.push({x:Math.random()*W,y:Math.random()*H,
-        vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35,
-        r:big?3.4:1.6,label:big?labels[i]:null,
-        col:Math.random()>.5?CY:VI});
-    }
-  }
-  function spawnToken(){
-    if(tokens.length>26)return;
-    const a=nodes[Math.floor(Math.random()*nodes.length)];
-    const near=nodes.filter(n=>n!==a&&dist(a,n)<150);
-    if(!near.length)return;
-    const b=near[Math.floor(Math.random()*near.length)];
-    tokens.push({a,b,t:0,sp:.006+Math.random()*.01});
-  }
-  function dist(a,b){return Math.hypot(a.x-b.x,a.y-b.y);}
-  function frame(){
-    ctx.clearRect(0,0,W,H);
-    // edges
-    for(let i=0;i<nodes.length;i++){
-      for(let j=i+1;j<nodes.length;j++){
-        const d=dist(nodes[i],nodes[j]);
-        if(d<150){
-          const o=(1-d/150)*.5;
-          ctx.strokeStyle='rgba(83,235,247,'+o*.5+')';
-          ctx.lineWidth=.6;
-          ctx.beginPath();ctx.moveTo(nodes[i].x,nodes[i].y);ctx.lineTo(nodes[j].x,nodes[j].y);ctx.stroke();
-        }
-      }
-    }
-    // nodes
-    nodes.forEach(n=>{
-      // motion
-      n.x+=n.vx;n.y+=n.vy;
-      if(n.x<0||n.x>W)n.vx*=-1;if(n.y<0||n.y>H)n.vy*=-1;
-      // mouse repel
-      const dx=n.x-mouse.x,dy=n.y-mouse.y,md=Math.hypot(dx,dy);
-      if(md<120){const f=(120-md)/120*1.6;n.x+=dx/md*f;n.y+=dy/md*f;}
-      ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,7);
-      ctx.fillStyle='rgb('+n.col+')';ctx.shadowColor='rgb('+n.col+')';ctx.shadowBlur=n.label?12:6;
-      ctx.fill();ctx.shadowBlur=0;
-      if(n.label){
-        ctx.font='11px "JetBrains Mono",monospace';ctx.fillStyle='rgba(231,236,245,.62)';
-        ctx.fillText(n.label,n.x+8,n.y+3);
-      }
-    });
-    // tokens travelling along edges
-    if(Math.random()<.14)spawnToken();
-    tokens=tokens.filter(tk=>{
-      tk.t+=tk.sp;if(tk.t>=1)return false;
-      const x=tk.a.x+(tk.b.x-tk.a.x)*tk.t,y=tk.a.y+(tk.b.y-tk.a.y)*tk.t;
-      ctx.beginPath();ctx.arc(x,y,2.2,0,7);ctx.fillStyle='rgba(245,166,35,.95)';
-      ctx.shadowColor='rgba(245,166,35,1)';ctx.shadowBlur=10;ctx.fill();ctx.shadowBlur=0;
-      return true;
-    });
-    requestAnimationFrame(frame);
-  }
-  function initStatic(){ // reduced motion: draw once
-    ctx.clearRect(0,0,W,H);
-    nodes.forEach(n=>{ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,7);ctx.fillStyle='rgb('+n.col+')';ctx.fill();
-      if(n.label){ctx.font='11px "JetBrains Mono",monospace';ctx.fillStyle='rgba(231,236,245,.6)';ctx.fillText(n.label,n.x+8,n.y+3);}});
-  }
-  window.addEventListener('resize',()=>{size();build();if(reduce)initStatic();});
-  window.addEventListener('mousemove',e=>{const r=cv.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});
-  window.addEventListener('mouseleave',()=>{mouse.x=mouse.y=-999;});
-  size();build();reduce?initStatic():frame();
-})();
+## 🛠 Tech Stack
 
-/* ---------------- TYPED ROLES ---------------- */
-(function(){
-  const el=document.getElementById('typed');
-  const roles=['python developer','genai builder','rag specialist','agentic ai engineer',
-    'workflow automation','computer vision','iot systems'];
-  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=roles[3];return;}
-  let ri=0,ci=0,del=false;
-  (function tick(){
-    const w=roles[ri];
-    el.textContent=del?w.slice(0,ci--):w.slice(0,ci++);
-    let t=del?45:90;
-    if(!del&&ci===w.length+1){del=true;t=1400;}
-    else if(del&&ci===0){del=false;ri=(ri+1)%roles.length;t=280;}
-    setTimeout(tick,t);
-  })();
-})();
+<div align="center">
 
-/* ---------------- TECH STACK ---------------- */
-(function(){
-  const groups=[
-    ['Core',[['Python','83,235,247'],['TypeScript','49,120,198'],['React','97,218,251']]],
-    ['GenAI · Agents',[['Generative AI','139,123,255'],['LangGraph','139,123,255'],['MCP','245,166,35'],['RAG','139,123,255'],['fastmcp','83,235,247']]],
-    ['ML · Vision',[['PyTorch','238,76,44'],['OpenCV','92,62,232'],['MediaPipe','83,235,247'],['NumPy','83,235,247'],['Pandas','139,123,255']]],
-    ['Cloud',[['AWS Bedrock','245,166,35'],['Lambda','245,166,35'],['SQS','245,120,180'],['CDK','245,166,35'],['S3','83,235,247']]],
-    ['Data · Vector',[['PostgreSQL','83,235,247'],['OpenSearch','83,235,247'],['Qdrant','245,120,150'],['ChromaDB','245,166,35'],['DynamoDB','139,123,255']]],
-    ['Automation · Tools',[['Playwright','83,235,247'],['PySide6','139,123,255'],['Selenium','83,235,247'],['Docker','49,150,237'],['Git','240,80,50']]]
-  ];
-  const host=document.getElementById('stackHost');
-  groups.forEach(([name,items])=>{
-    const g=document.createElement('div');g.className='stack-group reveal';
-    g.innerHTML='<div class="stack-label">'+name+'</div>';
-    const c=document.createElement('div');c.className='chips';
-    items.forEach(([t,col])=>{const s=document.createElement('span');s.className='chip';
-      s.style.setProperty('--dot','rgb('+col+')');s.textContent=t;c.appendChild(s);});
-    g.appendChild(c);host.appendChild(g);
-  });
-})();
+**Core**
 
-/* ---------------- LIVE GITHUB STATS ---------------- */
-(function(){
-  const animate=(el,to)=>{
-    if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=to;return;}
-    let cur=0;const step=Math.max(1,Math.ceil(to/45));
-    const iv=setInterval(()=>{cur+=step;if(cur>=to){cur=to;clearInterval(iv);}el.textContent=cur;},22);
-  };
-  animate(document.getElementById('s-exp'),10);
-  fetch('https://api.github.com/users/Sabbha20').then(r=>r.json()).then(u=>{
-    animate(document.getElementById('s-repos'),u.public_repos||0);
-    animate(document.getElementById('s-followers'),u.followers||0);
-  }).catch(()=>{document.getElementById('s-repos').textContent='100+';});
-  fetch('https://api.github.com/users/Sabbha20/repos?per_page=100').then(r=>r.json()).then(rs=>{
-    if(!Array.isArray(rs))throw 0;
-    const stars=rs.reduce((a,r)=>a+(r.stargazers_count||0),0);
-    animate(document.getElementById('s-stars'),stars);
-  }).catch(()=>{document.getElementById('s-stars').textContent='—';});
-})();
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-/* ---------------- SCROLL REVEAL ---------------- */
-(function(){
-  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.15});
-  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-  document.getElementById('year').textContent=new Date().getFullYear();
-})();
-</script>
-</body>
-</html>
+**GenAI · Agents**
+
+![Generative AI](https://img.shields.io/badge/Generative_AI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-D4A27F?style=for-the-badge&logo=anthropic&logoColor=black)
+![RAG](https://img.shields.io/badge/RAG-6E56CF?style=for-the-badge&logoColor=white)
+
+**ML · Vision**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+**Cloud**
+
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=for-the-badge&logo=amazonsqs&logoColor=white)
+![CDK](https://img.shields.io/badge/AWS_CDK-F29100?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+**Data · Vector**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B4A?style=for-the-badge&logoColor=white)
+
+**Automation · Tools**
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Sabbha20&theme=ayu-mirage&hide_border=false&include_all_commits=true&count_private=true)
+![Streak](https://streak-stats.demolab.com?user=Sabbha20&theme=ayu-mirage&hide_border=false)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabbha20&theme=ayu-mirage&layout=compact&langs_count=8&include_all_commits=true&count_private=true&hide=jupyter%20notebook,html,solidity)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=Sabbha20&theme=discord&no-frame=true&no-bg=true&margin-w=4&column=7)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sabbha20&theme=react-dark&hide_border=true&area=true)](https://github.com/Sabbha20)
+
+</div>
+
+---
+
+## 🌐 Connect with me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/sabbhamondal)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/mondal_sabbha)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Sabbha20)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:mondalsabbha@gmail.com)
+[![Medium](https://img.shields.io/badge/-Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mondalsabbha)
+[![Dev.to](https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/mondal_sabbha)
+
+</div>
+
+---
+
+### ✨ Random Dev Quote
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=ayu-mirage&hide_border=false)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Macondo&size=30&duration=3000&pause=1000&color=53EBF7&center=true&vCenter=true&width=675&lines=Thanks+for+visiting+my+profile!;Let's+connect+and+create+something+amazing!)](https://git.io/typing-svg)
+
+</div>

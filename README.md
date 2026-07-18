@@ -41,14 +41,18 @@
 ---
 
 ## 📊 Most Used Languages
-
+ 
 <div align="center">
 
-![Top Langs](https://github-readme-stats.shion.dev/api/top-langs?username=Sabbha20&theme=ayu-mirage&layout=donut&langs_count=10&include_all_commits=true&count_private=true&hide=jupyter%20notebook,html&v=)
-
-<sub>💡 For an always-on, live version of this breakdown, see the <a href="https://sabbha20.github.io/Sabbha20/">portfolio site</a>.</sub>
-
+<!-- Donut breakdown with per-language percentages -->
+![Top Langs Donut](https://github-readme-stats.shion.dev/api/top-langs?username=Sabbha20&layout=donut&langs_count=8&include_all_commits=true&count_private=true&hide=jupyter%20notebook,html,css&hide_border=true&border_radius=14&title_color=53EBF7&text_color=E7ECF5&icon_color=8B7BFF&bg_color=0D1220)
+ 
+<sub>💡 Live, always-on version with animated bars on the <a href="https://sabbha20.github.io/Sabbha20/">portfolio site</a>.</sub>
+ 
 </div>
+
+
+---
 
 ## 📊 GitHub Stats
 

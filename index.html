@@ -124,6 +124,36 @@ section.block{padding:110px 0}
 .card-full{grid-column:1/-1}
 .card-full img{width:100%;border-radius:14px}
 
+/* ---------- TIMELINE ---------- */
+.tl-wrap{position:relative}
+.tl-rail{position:absolute;top:38px;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--line) 8%,var(--line) 92%,transparent);z-index:0}
+.tl-track{display:flex;gap:22px;overflow-x:auto;padding:0 4px 22px;scroll-snap-type:x mandatory;
+  cursor:grab;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.tl-track.drag{cursor:grabbing;scroll-snap-type:none}
+.tl-track::-webkit-scrollbar{height:6px}
+.tl-track::-webkit-scrollbar-thumb{background:var(--line);border-radius:6px}
+.tl-card{position:relative;z-index:1;flex:0 0 320px;scroll-snap-align:center;padding-top:64px}
+.tl-node{position:absolute;top:31px;left:28px;width:16px;height:16px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--cyan);box-shadow:0 0 0 4px var(--bg),0 0 14px var(--cyan)}
+.tl-card.now .tl-node{border-color:var(--amber);box-shadow:0 0 0 4px var(--bg),0 0 16px var(--amber);
+  animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 4px var(--bg),0 0 8px var(--amber)}
+  50%{box-shadow:0 0 0 4px var(--bg),0 0 20px var(--amber)}}
+.tl-period{font-family:var(--mono);font-size:12px;color:var(--cyan);letter-spacing:.05em;margin-bottom:12px}
+.tl-card.now .tl-period{color:var(--amber)}
+.tl-box{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;
+  height:100%;transition:.25s}
+.tl-box:hover{border-color:var(--cyan);transform:translateY(-4px);box-shadow:0 16px 34px -18px var(--cyan)}
+.tl-co{font-size:19px;font-weight:600;letter-spacing:-.01em}
+.tl-role{font-family:var(--mono);font-size:12px;color:var(--muted);margin:4px 0 14px;text-transform:uppercase;letter-spacing:.08em}
+.tl-blurb{font-size:14px;color:var(--text);opacity:.9;line-height:1.55;margin-bottom:16px}
+.tl-tech{display:flex;flex-wrap:wrap;gap:7px}
+.tl-tech span{font-family:var(--mono);font-size:11px;padding:5px 10px;border-radius:8px;
+  background:var(--bg2);border:1px solid var(--line);color:var(--muted)}
+.tl-hint{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.14em;
+  margin-top:6px;text-align:right}
+
 /* ---------- REVEAL ---------- */
 .reveal{opacity:0;transform:translateY(34px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
 .reveal.in{opacity:1;transform:none}
@@ -201,9 +231,20 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
   </div>
 </section>
 
+<section class="block" id="career">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="sec-num">03</span><span class="sec-title">Career</span><span class="sec-line"></span></div>
+    <div class="tl-wrap reveal">
+      <div class="tl-rail"></div>
+      <div class="tl-track" id="tlTrack"></div>
+    </div>
+    <div class="tl-hint">&larr; DRAG / SCROLL &rarr;</div>
+  </div>
+</section>
+
 <section class="block" id="stats">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="sec-num">03</span><span class="sec-title">GitHub Activity</span><span class="sec-line"></span></div>
+    <div class="sec-head reveal"><span class="sec-num">04</span><span class="sec-title">GitHub Activity</span><span class="sec-line"></span></div>
     <div class="reveal">
       <div class="langhead">Most Used Languages <span id="langnote">· loading live from GitHub…</span></div>
       <div class="langbar" id="langbar"></div>
@@ -313,8 +354,7 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
 /* ---------------- SCRAMBLE ROLES ---------------- */
 (function(){
   const el=document.getElementById('typed');
-  const roles=['building GenAI systems','engineering RAG pipelines','orchestrating AI agents',
-    'automating workflows','shipping computer vision','wiring up IoT','writing Python'];
+  const roles=['writing Python','building GenAI systems','engineering RAG pipelines','orchestrating AI agents','automating workflows', 'perceiving Computer Vision', 'exploring IoT', 'articulating NLP' ];
   const CH='!<>-_\\/[]{}—=+*^?#01';
   if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=roles[0];return;}
   let ri=0;
@@ -420,6 +460,56 @@ footer{border-top:1px solid var(--line);padding:70px 0 46px;text-align:center;ba
     document.getElementById('s-stars').textContent='—';
     document.getElementById('langnote').textContent='· unavailable (GitHub rate limit) — refresh in a bit';
   });
+})();
+
+/* ---------------- TIMELINE ---------------- */
+(function(){
+  const data=[
+    {co:'Cognizant',role:'Associate · Oracle SOA Developer',period:'Apr 2015 – Jun 2022',
+     blurb:'Built SOA/OSB integration services across File, FTP & DB adapters, REST/SOAP and JMS queues; delivered MFT integrations and wrote Python scripts to auto-report logs and password expirations.',
+     tech:['Oracle SOA','OSB','PL/SQL','Python','Bitbucket']},
+    {co:'TCS',role:'IT Analyst · Python Automation',period:'Jun 2022 – Apr 2024',
+     blurb:'Built Python RPA desktop tools that cut manual effort 85–93%, combining OCR (Tesseract), OpenCV and spaCy NLP for intelligent document extraction — delivered end-to-end.',
+     tech:['Python','Selenium','Tesseract','OpenCV','spaCy','OpenPyXL']},
+    {co:'Servion',role:'Senior Software Engineer · GenAI · AWS',period:'Oct 2024 – Jan 2026',
+     blurb:'Designed production GenAI/RAG backends on AWS Bedrock (~30% better retrieval); event-driven microservices with Lambda, Step Functions & CDK cut manual workflows by 98%; metadata-aware retrieval to reduce hallucinations.',
+     tech:['AWS Bedrock','RAG','Lambda','Step Functions','CDK','DynamoDB']},
+    {co:'Cognizant',role:'Agentic AI Engineer',period:'May 2026 – Present',now:true,
+     blurb:'Building agentic AI automation — LangGraph multi-agent workflows and MCP tooling — with React/TypeScript front-ends for production desktop automation. [edit me]',
+     tech:['Agentic AI','LangGraph','MCP','React','TypeScript']}
+  ];
+  const track=document.getElementById('tlTrack');
+  data.forEach(d=>{
+    const c=document.createElement('div');c.className='tl-card'+(d.now?' now':'');
+    c.innerHTML='<div class="tl-node"></div><div class="tl-period">'+d.period+'</div>'+
+      '<div class="tl-box"><div class="tl-co">'+d.co+'</div><div class="tl-role">'+d.role+'</div>'+
+      '<div class="tl-blurb">'+d.blurb+'</div><div class="tl-tech">'+
+      d.tech.map(t=>'<span>'+t+'</span>').join('')+'</div></div>';
+    track.appendChild(c);
+  });
+  // drag to scroll
+  let down=false,sx,sl;
+  track.addEventListener('mousedown',e=>{down=true;track.classList.add('drag');sx=e.pageX;sl=track.scrollLeft;});
+  window.addEventListener('mouseup',()=>{down=false;track.classList.remove('drag');});
+  track.addEventListener('mousemove',e=>{if(!down)return;e.preventDefault();track.scrollLeft=sl-(e.pageX-sx)*1.4;});
+  // gentle auto-scroll, pause on hover/interaction
+  const reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  let paused=false,dir=1;
+  ['mouseenter','touchstart','mousedown','wheel'].forEach(ev=>track.addEventListener(ev,()=>paused=true,{passive:true}));
+  track.addEventListener('mouseleave',()=>paused=false);
+  if(!reduce){
+    let started=false;
+    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&!started){started=true;tick();}}),{threshold:.3});
+    io.observe(track);
+    function tick(){
+      if(!paused){
+        track.scrollLeft+=0.45*dir;
+        const max=track.scrollWidth-track.clientWidth;
+        if(track.scrollLeft>=max-1)dir=-1;else if(track.scrollLeft<=0)dir=1;
+      }
+      requestAnimationFrame(tick);
+    }
+  }
 })();
 
 /* ---------------- SCROLL REVEAL ---------------- */
